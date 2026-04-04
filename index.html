@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+   <!-- Ini bagian untuk styling dll-->
+   <head>
+      <title>Blackjack</title>
+      <!-- Ini buat ngestyling htmlnya-->
+      <link rel="stylesheet" href="style.css">
+      <!-- Ini biar si web ngikutin ukuran device -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <!-- Ini bagian utama -->
+   <body>
+      <h1>Simple Blackjack</h1>
+      <!-- Ini bagian kartu bot -->
+      <div class=kotakbot>
+         <h2>Kartu Bot</h2>
+         <span id=kartuBot></span>
+         <p>Total Kartu: <span id=totalKartuBot>?</span></p>
+      </div>
+      <!-- Ini bagian kartu pemain -->
+      <div class=kotakpemain>
+         <h2>Kartu Saya</h2>
+         <span id=kartuPemain></span>
+         <p>Total Kartu: <span id=totalKartuPemain>0</span></p>
+      </div>
+      <button class=upperbutton onclick=ambil()>Ambil</button>
+      <button class=upperbutton onclick=sudah()>Selesai</button>
+      <button class=lowerbutton onclick=ulang()>Ulangi</button>
+      <!-- Ini buat nampilin hasil (menang atau kalah) -->
+      <h2><span id=hasil></span></h2>
+      <p style="font-size: 5px;">Ckra & Ptra.</p>
+      <script src="script.js"></script>
+   </body>
+</html>

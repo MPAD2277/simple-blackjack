@@ -1,0 +1,58 @@
+body {
+	background-color: #222222;
+	font-family: Lucida;
+	text-align: center;
+	color: white;
+}
+h1 {
+	font-family: Impact;
+	text-align: center;
+	color: white;
+}
+.upperbutton {
+	background-color: rgba(255, 255, 255, 0.05);
+	border: 2px solid rgba(0,0,0,0.11);
+	border-radius: 13px;
+	box-shadow: inset 0 2px 0 rgba(255,255,255,0.12);
+	width: 47%;
+	color: white;
+	font-size: 17px;
+	padding: 5px;
+	margin: 3px;
+}
+.lowerbutton {
+	background-color: rgba(255, 255, 255, 0.05);
+	border: 2px solid rgba(0,0,0,0.11);
+	border-radius: 13px;
+	box-shadow: inset 0 2px 0 rgba(255,255,255,0.12);
+	width: 96.25%;
+	color: white;
+	font-size: 17px;
+	padding: 5px;
+	margin: 3px;
+}
+.kotakbot {
+	padding: 10px;
+	margin: 10px;
+	backdrop-filter: blur(12px);
+	background: linear-gradient(to bottom, rgba(255, 155, 155, 0.25), rgba(255, 155, 155, 0.07));
+	border: 2px solid rgba(255,255,255,0.11);
+	border-radius: 20px;
+	box-shadow: inset 0 2px 0 rgba(255,255,255,0.12);
+	place-items: center;
+}
+.kotakpemain {
+	padding: 10px;
+	margin: 10px;
+	backdrop-filter: blur(12px);
+	background: linear-gradient(to bottom, rgba(155, 255, 155, 0.25), rgba(155, 255, 155, 0.07));
+	border: 2px solid rgba(255,255,255,0.11);
+	border-radius: 20px;
+	box-shadow: inset 0 2px 0 rgba(255,255,255,0.12);
+	place-items: center;
+}
+.kartu {
+	margin-left: -35px;
+	margin-right: -35px;
+	box-shadow: 7px 7px 5px rgba(0,0,0,0.11);
+}
