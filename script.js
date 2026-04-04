@@ -33,7 +33,7 @@ function ambil() {
 	if (gameOver) return;
 	let semuaKartu = kartu(10);
 	let tipeKartu = kartu(4);
-	kartuPemain += `<img class=kartu src="assets/kartu/${semuaKartu}${tipeKartu}.png" width="50"> `;
+	kartuPemain += `<img class=kartu src="assets/kartu/${semuaKartu}${tipeKartu}.webp" width="50"> `;
 	totalKartuPemain += semuaKartu;
 	
 	//kalo kartu pemain kelebihan, maka langsung kalah wkwkkwkw
@@ -50,7 +50,7 @@ function autoAmbil() {
 	while (totalKartuBot < 17) {
 		let semuaKartu = kartu(10);
 		let tipeKartu = kartu(4);
-		kartuBot += `<img class=kartu src="assets/kartu/${semuaKartu}${tipeKartu}.png" width="50"> `;
+		kartuBot += `<img class=kartu src="assets/kartu/${semuaKartu}${tipeKartu}.webp" width="50"> `;
 		totalKartuBot += semuaKartu;
 	}
 }
