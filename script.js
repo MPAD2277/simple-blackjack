@@ -77,19 +77,16 @@ function sudah() {
 
 //ini buat ketika saat pemain pengen ngulang
 function ulang() {
-	if (gameOver) {
-		kartuPemain = "";
-		kartuBot = "";
-		totalKartuPemain = 0;
-		totalKartuBot = 0;
-		gameOver = false;
-		
-		hasilEl.innerText = "";
-		kartuBotEl.innerHTML = "";
-		totalKartuBotEl.innerText = "?";
-		
-		updateUI();
-	} else {
-		return;
-	}
+	if (!gameOver) return;
+	kartuPemain = "";
+	kartuBot = "";
+	totalKartuPemain = 0;
+	totalKartuBot = 0;
+	gameOver = false;
+	
+	hasilEl.innerText = "";
+	kartuBotEl.innerHTML = "";
+	totalKartuBotEl.innerText = "?";
+	
+	updateUI();
 }
