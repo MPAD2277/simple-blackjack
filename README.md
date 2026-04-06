@@ -15,3 +15,6 @@ Simpelnya gini, ini itu untuk proyek sekolah gue. Awalnya gue bikin pake ChatGPT
 - Cakra Tri Saddha
 ## Kenapa gue bikin ini?
 Awalnya, guru gue, Bu Ida, yang ngajarin gue Informatika ngasih gue tugas untuk bikin algoritma simpel menggunakan flowchart. Singkat cerita, gue sudah ngerjain tugas itu. Lalu gue memiliki ide, bagaimana jika gue bikin proyek asli berdasarkan tugas ini? Jadi gue nanya ChatGPT untuk membuat permainan blackjack simpel berdasarkan flowchart yang gue bikin, tapi gue gak tau apa fungsi-fungsinya jadi gue nyoba bikin ulang, tambah upgrade, dan akhirnya permainan simple ini jadi.
+
+# FLOWCHART (INDONESIAN ONLY)
+![Logo Proyek](assets/flowchart.png)
